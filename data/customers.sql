@@ -1,0 +1,12 @@
+-- Insert sample customer data
+INSERT INTO customers (first_name, last_name, email, phone, address_1, address_2, city, state, zip, notes, active, created_at, updated_at) VALUES
+('John', 'Smith', 'john.smith@email.com', '555-0123', '123 Main Street', 'Apt 4B', 'New York', 'NY', '10001', 'Preferred contact method is email. Regular customer since 2023.', true, '2024-01-15 09:30:00', '2024-01-15 09:30:00'),
+('Sarah', 'Johnson', 'sarah.johnson@gmail.com', '555-0456', '456 Oak Avenue', NULL, 'Los Angeles', 'CA', '90210', 'VIP customer. Prefers phone calls for urgent matters.', true, '2024-02-03 14:22:00', '2024-02-03 14:22:00'),
+('Michael', 'Brown', 'm.brown@company.com', '555-0789', '789 Pine Street', 'Suite 200', 'Chicago', 'IL', '60601', NULL, true, '2024-02-10 11:45:00', '2024-02-10 11:45:00'),
+('Emma', 'Davis', 'emma.davis@outlook.com', '555-0234', '234 Elm Street', NULL, 'Houston', 'TX', '77001', 'Corporate account manager. Schedule meetings in advance.', true, '2024-02-18 16:10:00', '2024-02-18 16:10:00'),
+('Robert', 'Wilson', 'robert.wilson@email.net', '555-0567', '567 Maple Drive', 'Unit 12', 'Phoenix', 'AZ', '85001', 'Seasonal customer. Active during winter months only.', false, '2024-01-28 08:15:00', '2024-03-01 10:30:00'),
+('Jessica', 'Miller', 'jessica.miller@yahoo.com', '555-0890', '890 Cedar Lane', NULL, 'Philadelphia', 'PA', '19101', 'Bulk order customer. Requires 48-hour processing time.', true, '2024-03-05 13:20:00', '2024-03-05 13:20:00'),
+('David', 'Garcia', 'd.garcia@business.com', '555-0345', '345 Birch Road', 'Floor 3', 'San Antonio', 'TX', '78201', 'Spanish-speaking customer. Prefers communication in Spanish.', true, '2024-03-12 09:55:00', '2024-03-12 09:55:00'),
+('Ashley', 'Rodriguez', 'ashley.rodriguez@email.com', '555-0678', '678 Spruce Avenue', NULL, 'San Diego', 'CA', '92101', NULL, true, '2024-03-20 15:40:00', '2024-03-20 15:40:00'),
+('Christopher', 'Martinez', 'chris.martinez@gmail.com', '555-0901', '901 Willow Street', 'Apt 7A', 'Dallas', 'TX', '75201', 'New customer. Referred by Jessica Miller.', true, '2024-03-25 12:15:00', '2024-03-25 12:15:00'),
+('Amanda', 'Anderson', 'amanda.anderson@email.org', '555-0123', '321 Poplar Boulevard', NULL, 'San Jose', 'CA', '95101', 'Tech industry contact. Interested in enterprise solutions.', true, '2024-04-01 10:25:00', '2024-04-01 10:25:00');

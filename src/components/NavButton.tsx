@@ -15,7 +15,7 @@ const NavButton = ({icon:Icon,label,href}:Props) => {
       variant="ghost"
       size="icon"
       aria-label={label}
-      title="{label}"
+      title={label}
       className="rounded-full"
       asChild>
 
